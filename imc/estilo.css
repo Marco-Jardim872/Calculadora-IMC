@@ -1,0 +1,104 @@
+body {
+    font-size: 100%;
+  }
+  #conteudo {
+    background-color: black;
+    width: 30%;
+    height: 1000px;
+    margin: auto;
+    display: flex;
+    border-radius: 2em;
+  }
+  #bloco1 {
+    border-radius: 2em;
+    background-color: rgb(197, 197, 59);
+    width: 90%;
+    height: 90%;
+    margin: auto;
+  }
+  #imc {
+    border-bottom: 5px solid black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 4em;
+  }
+  #dados {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 2em;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    color: white;
+  }
+  #nome {
+    text-align: center;
+    font-size: 0.7em;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 200px;
+    height: 40px;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #altura {
+    text-align: center;
+    font-size: 0.7em;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 200px;
+    height: 40px;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #peso {
+    text-align: center;
+    font-size: 0.7em;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0.5em;
+    width: 200px;
+    height: 40px;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #btn {
+    border: none;
+    border-radius: 0.3em;
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    height: 5%;
+    margin: auto;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #btn2 {
+    border: none;
+    border-radius: 0.3em;
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    height: 5%;
+    margin: auto;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #final {
+    margin: auto;
+    background-color: black;
+    width: 90%;
+    height: 30%;
+    border-radius: 1em;
+    display: flex;
+    box-shadow: 7px 7px 5px rgb(37, 37, 37);
+  }
+  #resultado {
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    margin: auto;
+  }
